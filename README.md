@@ -1,1 +1,0 @@
-# lamgallass.github.io
