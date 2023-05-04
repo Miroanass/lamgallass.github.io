@@ -258,6 +258,7 @@ img{
 }
 
 /* ===== SKILLS =====*/
+/*
 .skills__container{
   row-gap: 2rem;
   text-align: center;
@@ -455,27 +456,27 @@ img{
 /* 
 /* add by me /*
 /* Skills Section */
-
+/*
 #skills {
     padding: 80px 0;
   }
   
   Section heading */
- .section-heading {
+ /*.section-heading {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 60px;
     text-align: center;
   }
-  
-  Section columns */
+  /*
+  Section columns 
   .section-columns {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
   
-  Section column */
+  Section column 
   .section-column {
     margin: 0 30px;
     width: 300px;
@@ -496,8 +497,7 @@ img{
     color: #777;
   }
   
-  
-  /* Use shorthand properties */
+   /*Use shorthand properties */
   /* .section-column {
     margin: 0 30px;
   } 
@@ -511,14 +511,15 @@ img{
     margin: 0 ($section-padding / 2);
   } /* 
   
-  /* Use a CSS reset to ensure consistent rendering */
-  /* @import url('normalize.css');
+   Use a CSS reset to ensure consistent rendering 
+   @import url('normalize.css');
   
-  /* Use comments to explain your code */
-  /* This code styles the Skills section on the homepage. */
+   Use comments to explain your code 
+   This code styles the Skills section on the homepage. */
 
 
   /* Skills Section */
+
 #skills {
   background-color: #f7f7f7;
   padding: 60px 0;
@@ -529,7 +530,7 @@ img{
   font-weight: bold;
   text-align: center;
   margin-bottom: 60px;
-  color: #333;
+  color: #e7a30f;
 }
 
 .section-columns {
@@ -542,7 +543,7 @@ img{
   width: 300px;
   background-color: #fff;
   margin: 0 20px 40px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(241, 179, 6, 0.1);
   transition: all 0.3s ease-in-out;
   text-align: center;
   padding: 40px 20px;
@@ -550,14 +551,14 @@ img{
 
 .section-column:hover {
   transform: translateY(-10px);
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 20px rgba(235, 155, 8, 0.2);
 }
 
 .section-column h2 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #333;
+  color: #f09104;
 }
 
 .section-column p {
@@ -566,12 +567,12 @@ img{
   line-height: 1.5;
 }
 
-/* Set a nice background color for the page */
+/* Set a nice background color for the page *//*
 body {
   background-color: #f9f9f9;
 }
 
-/* Style the container */
+/* Style the container *//*
 .work__container {
   display: flex;
   justify-content: center;
@@ -581,7 +582,7 @@ body {
   row-gap: 2rem;
 }
 
-/* Style the images */
+/* Style the images *//*
 .work__img {
   position: relative;
   width: 300px;
@@ -594,13 +595,13 @@ body {
   transition: transform .3s ease-in-out;
 }
 
-/* Style the image on hover */
+/* Style the image on hover *//*
 .work__img:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(133, 192, 226, 0.3);
 }
 
-/* Style the image's details */
+/* Style the image's details *//*
 .work__details {
   position: absolute;
   top: 0;
@@ -618,125 +619,20 @@ body {
   transition: opacity .3s ease-in-out;
 }
 
-/* Style the image's details on hover */
+/* Style the image's details on hover *//*
 .work__img:hover .work__details {
   opacity: 1;
 }
 
-/* Style the title in the image's details */
+/* Style the title in the image's details *//*
 .work__details h3 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-/* Style the subtitle in the image's details */
+/* Style the subtitle in the image's details *//*
 .work__details p {
   font-size: 18px;
   margin-bottom: 20px;
-}
-
-/* Contact Section */
-/*
-.contact {
-  padding: 100px 0;
-  background-color: #f9f9f9;
-  text-align: center;
-}
-
-.contact__title {
-  font-size: 48px;
-  font-weight: 700;
-  margin-bottom: 50px;
-  color: #333;
-}
-
-.contact__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-top: 50px;
-}
-
-.contact__form {
-  max-width: 500px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact__input {
-  width: 100%;
-  padding: 15px;
-  border: none;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  font-size: 16px;
-  color: #333;
-  background-color: #fff;
-}
-
-.contact__input:focus {
-  outline: none;
-}
-
-.contact__textarea {
-  width: 100%;
-  padding: 15px;
-  border: none;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  font-size: 16px;
-  color: #333;
-  background-color: #fff;
-}
-
-.contact__textarea:focus {
-  outline: none;
-}
-
-.contact__button {
-  border: none;
-  border-radius: 10px;
-  background-color: #333;
-  color: #fff;
-  font-size: 16px;
-  padding: 15px 20px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.contact__button:hover {
-  background-color: #fff;
-  color: #333;
-}
-
-.contact__info {
-  max-width: 500px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact__text {
-  font-size: 18px;
-  color: #333;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.contact__link {
-  color: #333;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-.contact__link:hover {
-  color: #666;
 }
